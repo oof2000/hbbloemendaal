@@ -1,0 +1,46 @@
+body
+{
+	background-image: url(../images/chalkboard.png);
+	font-family: Bradley Hand ITC;
+	text-align: center;
+	font-size:20px;	
+	vertical-align:bottom;
+	color:#fff
+}
+
+a
+{
+	color:yellow;
+}
+
+a:hover
+{
+	color:blue;
+}
+
+#header
+{
+	font-family:Bradley Hand ITC;
+	font-size:100px;
+}
+
+body img
+{
+	height:250px;
+	width: 300px;
+}
+
+
+.footer
+{
+	vertical-align:bottom;
+	padding:200x;
+	font-size:20px;	
+}
+
+#footer1
+{
+	vertical-align:bottom;
+	padding:200x;
+	font-size:14px;	
+}

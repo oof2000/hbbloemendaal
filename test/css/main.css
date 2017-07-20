@@ -1,0 +1,391 @@
+/* DEFAULTS */
+html, body 
+{
+	margin:0; :0; width:100%; height:100%; overflow:hidden; text-align:left;
+}
+
+body 
+{
+	font-family:arial, sans-serif; 
+	font-size:11px; 
+	color:#606060;
+}
+
+a 
+{
+	outline:none;
+}
+
+h1
+{
+	margin:0;
+	padding:0;
+	color:#606060;
+	font-size:24px;
+
+}
+
+ul, li
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+img
+{
+	border:none;
+}
+
+/* BACKGROUND */
+#background
+{
+	position:absolute; z-index:1; width:100%; height:100%;
+}
+
+#scroller 
+{
+	position:absolute; width:100%; height:100%; top:0; left:0; overflow:auto; z-index:2;
+}
+
+#content 
+{
+	padding:5px 300px 20px 200px;
+}
+
+#fixed 
+{
+	position:absolute; top:25px; left:10px; width:160px; z-index:10; color:#567; border:1px solid #000; padding:10px;
+}
+
+/* CONTAINTER */
+#IE_body
+{
+	text-align:center
+}
+
+#container
+{
+	margin:0 auto;
+	width:1000px;
+	height:800px;
+	position:relative;
+	z-index:2;
+	text-align:left;
+}
+
+/* LOGO */
+#logo
+{
+	position:absolute;
+	width:248px;
+	height:80px;
+	top:15px;
+	left:8px;
+	z-index:4;
+}
+
+#logo img
+{
+	height:80px;
+	width:248px;
+}
+
+/* SOCIAL */
+#social
+{
+	position:absolute;
+	top:45px;
+	left:650px;
+	z-index:4;
+	margin:0;
+	padding:0;
+}
+
+#social a
+{
+	display:block;
+	float:left;
+	width:30px;
+	height:30px;
+	margin:0;
+}
+
+#social li
+{
+	display:block;
+	float:left;
+	width:30px;
+	height:30px;
+	margin:0 5px 0 0;
+}
+
+#fb
+{
+	background:url('../images/buttons/fb.png') no-repeat 0 0;
+}
+
+#fb a:hover
+{
+	background:url('../images/buttons/fb.png') no-repeat 0 -30px;
+}
+
+#tw
+{
+	background:url('../images/buttons/tw.png') no-repeat 0 0;
+}
+
+#tw a:hover
+{
+	background:url('../images/buttons/tw.png') no-repeat 0 -30px;
+}
+
+#li
+{
+	background:url('../images/buttons/li.png') no-repeat 0 0;
+}
+
+#li a:hover
+{
+	background:url('../images/buttons/li.png') no-repeat 0 -30px;
+}
+
+/* MENU */
+#menu_left
+{
+	position:relative;
+	float:left;
+	width:135px;
+	height:675px;
+	margin:120px 0 0 0;
+	z-index:3;
+}
+
+#menu_left li
+{
+	margin:0 0 15px 23px;
+}
+
+#menu_left li, #menu_left a
+{
+	list-style-type:none;
+	display:block;
+	width:85px;
+	height:85px;
+}
+
+#button_1
+{
+
+	background:url('../images/buttons/button_1.png') no-repeat 0 0;
+}
+
+#button_1 a:hover
+{
+	background:url('../images/buttons/button_1.png') no-repeat 0 -87px;
+}
+
+#button_2
+{
+
+	background:url('../images/buttons/button_2.png') no-repeat 0 0;
+}
+
+#button_2 a:hover
+{
+	background:url('../images/buttons/button_2.png') no-repeat 0 -87px;
+}
+
+#button_3
+{
+
+	background:url('../images/buttons/button_3.png') no-repeat 0 0;
+}
+
+#button_3 a:hover
+{
+	background:url('../images/buttons/button_3.png') no-repeat 0 -87px;
+}
+
+#button_4
+{
+
+	background:url('../images/buttons/button_4.png') no-repeat 0 0;
+}
+
+#button_4 a:hover
+{
+	background:url('../images/buttons/button_4.png') no-repeat 0 -87px;
+}
+
+
+#menu_bottom
+{
+	position:relative;
+	float:left;
+	width:500px;
+	height:125px;
+	margin:15px 0 0 20px;
+}
+
+#menu_bottom li
+{
+	display:block;
+	float:left;
+	width:85px;
+	height:85px;
+	margin:0 20px 0 0;
+}
+
+#menu_bottom a
+{
+	display:block;
+	float:left;
+	width:85px;
+	height:85px;
+	margin:0;
+}
+
+#button_5
+{
+	background:url('../images/buttons/button_5.png') no-repeat 0 0;
+}
+
+#button_5 a:hover
+{
+	background:url('../images/buttons/button_5.png') no-repeat 0 -86px;
+}
+
+#button_6
+{
+
+	background:url('../images/buttons/button_6.png') no-repeat 0 0;
+}
+
+#button_6 a:hover
+{
+	background:url('../images/buttons/button_6.png') no-repeat 0 -86px;
+}
+
+#button_7
+{
+
+	background:url('../images/buttons/button_7.png') no-repeat 0 0;
+}
+
+#button_7 a:hover
+{
+	background:url('../images/buttons/button_7.png') no-repeat 0 -86px;
+}
+
+#button_8
+{
+
+	background:url('../images/buttons/button_8.png') no-repeat 0 0;
+}
+
+#button_8 a:hover
+{
+	background:url('../images/buttons/button_8.png') no-repeat 0 -86px;
+}
+
+
+/* BODY */
+#body_content
+{
+	position:relative;
+	float:left;
+	background:url('../images/body_1.png') no-repeat;
+	width:800px;
+	height:450px;
+	margin:90px 0 0 0;
+}
+
+#body_content img
+{
+	width:370px;
+}
+
+#body_content .gallery img
+{
+	width:100px;
+}
+
+#body_content_input
+{
+	margin:10px 10px 10px 30px;
+	width:370px;
+	text-align:justify;
+}
+
+#body_content h1
+{
+	margin:10px 10px 10px 30px;
+	width:370px;
+	text-align:center;
+	padding:5px 0 0 5px;
+}
+
+#body_content input, #body_content textarea
+{
+	width:150px;
+	font-family:arial, sans-serif; 
+	font-size:11px; 
+	color:#e11528;
+	outline-color:#e11528;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #999;
+	box-shadow:0 1px 3px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 1px 3px #999;
+	margin-bottom:5px;		
+}
+
+#body_content textarea
+{
+	width:300px;
+	height:75px;
+}
+
+#body_content input.button
+{
+	width:75px;
+	color:#606060;
+}
+
+#body_content input:hover.button
+{
+	width:75px;
+	color:#fff;
+	background:red;
+	cursor:pointer;
+}
+
+.wieber_cut
+{
+	position:absolute;
+	width:260px;
+	height:146px;
+	top:0px;
+	left:400px;
+	background:url('../images/wieber_cut.png') no-repeat;	
+}
+.wieber
+{
+	position:absolute;
+	width:147px;
+	height:146px;
+	top:500px;
+	left:720px;
+	background:url('../images/wieber.png') no-repeat;
+}
+
+/* Tiny Scrollbar */
+#scrollbar1 { width: 390px; margin: 20px 0 10px; }
+#scrollbar1 .viewport { width: 370px; height: 315px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+#scrollbar1 .scrollbar{ background: transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+#scrollbar1 .track { background: transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#scrollbar1 .thumb .end { background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+#scrollbar1 .disable { display: none; }

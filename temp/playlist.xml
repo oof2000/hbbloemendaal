@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+	<trackList>
+
+		<track>
+			<title>Boek</title>
+			<creator>Photo Stock Exchange</creator>
+			<location>images/test1.jpg</location>
+			<info>scx.hu</info>
+		</track>
+
+		<track>
+			<title>HBB Bloemendaal</title>
+			<creator>O Koelemij</creator>
+			<location>images/4223.jpg</location>
+			<info>http://www.hbbloemendaal.nl</info>
+		</track>
+		
+		<track>
+			<title>HBB Bloemendaal</title>
+			<creator>O Koelemij</creator>
+			<location>images/4.jpg</location>
+			<info>http://www.hbbloemendaal.nl</info>
+		</track>
+		
+		<track>
+			<title>HBB Bloemendaal</title>
+			<creator>O Koelemij</creator>
+			<location>images/P3.jpg</location>
+			<info>http://www.hbbloemendaal.nl</info>
+		</track>		
+
+		<track>
+			<title>HBB Bloemendaal</title>
+			<creator>O Koelemij</creator>
+			<location>images/4222.jpg</location>
+			<info>http://www.hbbloemendaal.nl</info>
+		</track>
+		
+		<track>
+			<title>HBB Bloemendaal</title>
+			<creator>O Koelemij</creator>
+			<location>images/P2.jpg</location>
+			<info>http://www.hbbloemendaal.nl</info>
+		</track>
+		
+		<track>
+			<title>HBB Bloemendaal</title>
+			<creator>O Koelemij</creator>
+			<location>images/4200.jpg</location>
+			<info>http://www.hbbloemendaal.nl</info>
+		</track>
+
+		<track>
+			<title>HBB Bloemendaal</title>
+			<creator>O Koelemij</creator>
+			<location>images/4190.jpg</location>
+			<info>http://www.hbbloemendaal.nl</info>
+		</track>				
+		<track>
+			<title>HBB Bloemendaal</title>
+			<creator>O Koelemij</creator>
+			<location>images/4205.jpg</location>
+			<info>http://www.hbbloemendaal.nl</info>
+		</track>		
+		
+		
+	</trackList>
+</playlist>
