@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px){
+
+	$green : #6cbd77;
+	$light-green : #ecf3d7;
+	$height : 75px;
+
+	header {
+		position: absolute;
+		top:0%;
+		width: 100%;
+
+		nav {	
+			position: fixed;
+			left:-100%;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			font-size: 24px;
+			background: $green;
+
+			ul {
+				width: 100%;
+				height: 60%;
+				float: none;
+				padding-top: $height;
+				margin: 0;
+
+				li {
+					position: relative;
+					display: block;
+					width: 100%;
+					margin: 0 0 0 0%;
+					height: calc(100%/5);
+					line-height: 80px;
+
+					a {
+						color:#000;
+						width: 100%;
+						height: 100%;
+						line-height: 80px;
+					}
+
+					a:hover {
+						
+					}
+
+					a:active {
+						background: #FFF !IMPORTANT;
+					}
+				}
+
+			}
+
+		}
+
+		#hamburger {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 75px;
+			height: 75px;
+			background: url(../img/hamburger.png);
+
+		}
+
+		.close {
+				background: url(../img/hamburger-close.png) !important;				
+			}
+	}
+
+	section {
+		width: 100%;
+		margin-top:50px;
+	}
+
+	aside {
+		display: none;
+	}
+
+}
